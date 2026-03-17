@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omolara Aworeni Mary — Creative Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#top" class="nav-mark">OAM</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#campaigns">Campaigns</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="top" style="padding-top:0;">
+    <div class="hero-circle"></div>
+    <div class="hero-line"></div>
+    <div class="hero-label">Creative Storyteller&nbsp;&nbsp;2026</div>
+
+    <div class="hero-role-badge">
+      <div class="badge-dot"></div>
+      <span class="badge-text">Available — Applying to Blender Foundation</span>
+    </div>
+
+    <h1 class="hero-headline">
+      TELL<br>
+      <span class="line-gold">EVERY</span><br>
+      <span class="line-stroke">STORY</span>
+    </h1>
+
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        <strong>Omolara Aworeni Mary.</strong> Digital storyteller, visual communicator, and campaign strategist. Trained in 3D animation, video editing, and digital marketing. Here to help <strong>Blender's open-source world find its voice.</strong>
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="cta-btn">
+          <span>View My Work</span>
+          <span class="cta-arrow">↓</span>
+        </a>
+        <div class="scroll-hint">Scroll to explore</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker-inner" id="ticker1">
+        <span class="ticker-item">Visual Storytelling <span class="t-sep"></span></span>
+        <span class="ticker-item">Video Editing <span class="t-sep"></span></span>
+        <span class="ticker-item">3D Animation <span class="t-sep"></span></span>
+        <span class="ticker-item">Campaign Strategy <span class="t-sep"></span></span>
+        <span class="ticker-item">Copywriting <span class="t-sep"></span></span>
+        <span class="ticker-item">Social Media <span class="t-sep"></span></span>
+        <span class="ticker-item">Open Source <span class="t-sep"></span></span>
+        <span class="ticker-item">Digital Marketing <span class="t-sep"></span></span>
+        <span class="ticker-item">Community Building <span class="t-sep"></span></span>
+        <span class="ticker-item">Web Design <span class="t-sep"></span></span>
+      </div>
+      <div class="ticker-inner" aria-hidden="true">
+        <span class="ticker-item">Visual Storytelling <span class="t-sep"></span></span>
+        <span class="ticker-item">Video Editing <span class="t-sep"></span></span>
+        <span class="ticker-item">3D Animation <span class="t-sep"></span></span>
+        <span class="ticker-item">Campaign Strategy <span class="t-sep"></span></span>
+        <span class="ticker-item">Copywriting <span class="t-sep"></span></span>
+        <span class="ticker-item">Social Media <span class="t-sep"></span></span>
+        <span class="ticker-item">Open Source <span class="t-sep"></span></span>
+        <span class="ticker-item">Digital Marketing <span class="t-sep"></span></span>
+        <span class="ticker-item">Community Building <span class="t-sep"></span></span>
+        <span class="ticker-item">Web Design <span class="t-sep"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="s-inner">
+      <div class="s-eyebrow reveal">
+        <span class="s-eyebrow-num">01</span>
+        <span class="s-eyebrow-line"></span>
+        <span class="s-eyebrow-label">About</span>
+      </div>
+      <h2 class="s-title reveal">The <em>storyteller</em><br>behind the work.</h2>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="about-image-wrap">
+            <div class="about-image-zone" id="about-img-zone">
+              <img id="about-img" src="" alt="Omolara">
+              <input type="file" accept="image/*" onchange="loadImg('about-img-zone','about-img',this)">
+              <div class="image-placeholder">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(212,168,67,0.3)" stroke-width="1">
+                  <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                </svg>
+                <span class="placeholder-label">Click to add your photo</span>
+              </div>
+              <div class="img-overlay"><span>Change Photo</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right reveal reveal-delay-2">
+          <p class="about-intro">"I believe every creative process holds a story — and the right story, told well, can move communities."</p>
+          <p class="about-body">I'm a <strong>creative digital storyteller</strong> with training in 3D animation, video editing, responsive web design, and digital content strategy. Currently completing an <strong>MSc in International Digital Marketing & Business Transformation</strong> at Rome Business School.</p>
+          <p class="about-body">My work lives at the intersection of creativity and communication — translating complex, evolving projects into narratives that <strong>inform, engage, and inspire.</strong> I'm especially drawn to open-source ecosystems like Blender, where the process itself is the story.</p>
+
+          <div class="about-quals">
+            <div class="qual-row">
+              <span class="qual-year">2025</span>
+              <div class="qual-text">Responsive Web Design Certification<span>FreeCodeCamp</span></div>
+            </div>
+            <div class="qual-row">
+              <span class="qual-year">2025–</span>
+              <div class="qual-text">MSc International Digital Marketing & Business Transformation<span>Rome Business School</span></div>
+            </div>
+            <div class="qual-row">
+              <span class="qual-year">2023</span>
+              <div class="qual-text">3D Animation Certification<span>Women Techsters Fellowship</span></div>
+            </div>
+            <div class="qual-row">
+              <span class="qual-year">2022</span>
+              <div class="qual-text">Video Editing Certification<span>Daystar Skill Acquisition</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="work-section" id="work">
+    <div class="s-inner">
+      <div class="s-eyebrow reveal">
+        <span class="s-eyebrow-num">02</span>
+        <span class="s-eyebrow-line"></span>
+        <span class="s-eyebrow-label">Selected Work</span>
+      </div>
+      <h2 class="s-title reveal">Projects &amp; <em>builds.</em></h2>
+
+      <div class="project-list">
+        <div class="proj-row reveal">
+          <div class="proj-num">01</div>
+          <div class="proj-info">
+            <div class="proj-type">Frontend · Web</div>
+            <div class="proj-name" contenteditable>Project Name Here</div>
+            <div class="proj-desc" contenteditable>Describe what you built — the goal, the challenge, what it demonstrates about your skills. Click to edit this text.</div>
+            <div class="link-input-group" style="margin-top:12px;">
+              <input class="url-input" id="p1live-in" placeholder="Live URL…">
+              <button class="url-set-btn" onclick="setHref('p1live-in','p1live-btn')">Set</button>
+              <a href="#" id="p1live-btn" class="proj-link-btn primary" style="display:none" target="_blank">Live →</a>
+              <input class="url-input" id="p1gh-in" placeholder="GitHub URL…">
+              <button class="url-set-btn" onclick="setHref('p1gh-in','p1gh-btn')">Set</button>
+              <a href="#" id="p1gh-btn" class="proj-link-btn" style="display:none" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="proj-media">
+            <div class="proj-img-zone" id="pimg1" onclick="triggerFile('pfile1')">
+              <img id="pimg1-img">
+              <div class="proj-img-placeholder"><span class="proj-img-hint">Click to add screenshot</span></div>
+              <input type="file" id="pfile1" accept="image/*" onchange="loadProjImg('pimg1','pimg1-img',this)" style="display:none">
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-row reveal reveal-delay-1">
+          <div class="proj-num">02</div>
+          <div class="proj-info">
+            <div class="proj-type">Frontend · Web</div>
+            <div class="proj-name" contenteditable>Project Name Here</div>
+            <div class="proj-desc" contenteditable>Describe what you built — the goal, the challenge, what it demonstrates about your skills. Click to edit this text.</div>
+            <div class="link-input-group" style="margin-top:12px;">
+              <input class="url-input" id="p2live-in" placeholder="Live URL…">
+              <button class="url-set-btn" onclick="setHref('p2live-in','p2live-btn')">Set</button>
+              <a href="#" id="p2live-btn" class="proj-link-btn primary" style="display:none" target="_blank">Live →</a>
+              <input class="url-input" id="p2gh-in" placeholder="GitHub URL…">
+              <button class="url-set-btn" onclick="setHref('p2gh-in','p2gh-btn')">Set</button>
+              <a href="#" id="p2gh-btn" class="proj-link-btn" style="display:none" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="proj-media">
+            <div class="proj-img-zone" id="pimg2" onclick="triggerFile('pfile2')">
+              <img id="pimg2-img">
+              <div class="proj-img-placeholder"><span class="proj-img-hint">Click to add screenshot</span></div>
+              <input type="file" id="pfile2" accept="image/*" onchange="loadProjImg('pimg2','pimg2-img',this)" style="display:none">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA -->
+  <section class="media-section" id="media">
+    <div class="s-inner">
+      <div class="s-eyebrow reveal">
+        <span class="s-eyebrow-num">03</span>
+        <span class="s-eyebrow-line"></span>
+        <span class="s-eyebrow-label">Media Work</span>
+      </div>
+      <h2 class="s-title reveal">Video &amp; <em>visual</em> work.</h2>
+
+      <div class="media-grid">
+        <div class="media-card reveal">
+          <div class="video-area" id="vzone1">
+            <div class="video-empty">
+              <div class="v-play-ring">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="rgba(212,168,67,0.8)"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="v-hint">Paste YouTube or Vimeo link below</span>
+            </div>
+            <iframe id="vframe1" allowfullscreen></iframe>
+          </div>
+          <div class="media-card-body">
+            <div class="media-title" contenteditable>Video Sample 1</div>
+            <p class="media-desc" contenteditable>Describe what this video shows — what you edited, the narrative approach, and what it demonstrates about your storytelling skills.</p>
+            <div class="link-input-group">
+              <input class="url-input" id="v1-url" placeholder="YouTube or Vimeo URL…" style="width:220px">
+              <button class="url-set-btn" onclick="embedVid('v1-url','vzone1','vframe1')">Embed</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="media-card reveal reveal-delay-1">
+          <div class="video-area" id="vzone2">
+            <div class="video-empty">
+              <div class="v-play-ring">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="rgba(212,168,67,0.8)"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="v-hint">Paste YouTube or Vimeo link below</span>
+            </div>
+            <iframe id="vframe2" allowfullscreen></iframe>
+          </div>
+          <div class="media-card-body">
+            <div class="media-title" contenteditable>Video Sample 2</div>
+            <p class="media-desc" contenteditable>Describe what this video shows — what you edited, the narrative approach, and what it demonstrates about your storytelling skills.</p>
+            <div class="link-input-group">
+              <input class="url-input" id="v2-url" placeholder="YouTube or Vimeo URL…" style="width:220px">
+              <button class="url-set-btn" onclick="embedVid('v2-url','vzone2','vframe2')">Embed</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:48px;">
+        <div style="font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;opacity:.7;" class="reveal">3D Animation & Visual Art</div>
+        <div class="art-grid reveal">
+          <div class="art-card" id="art1">
+            <img id="art1-img">
+            <input type="file" accept="image/*" onchange="loadArtCard('art1','art1-img',this)">
+            <div class="art-empty">
+              <span class="art-mark">3D</span>
+              <span class="art-label">Upload render or still</span>
+            </div>
+            <div class="art-overlay">
+              <span class="art-caption" contenteditable>Animation Sample 1</span>
+            </div>
+          </div>
+          <div class="art-card" id="art2">
+            <img id="art2-img">
+            <input type="file" accept="image/*" onchange="loadArtCard('art2','art2-img',this)">
+            <div class="art-empty">
+              <span class="art-mark">3D</span>
+              <span class="art-label">Upload render or still</span>
+            </div>
+            <div class="art-overlay">
+              <span class="art-caption" contenteditable>Animation Sample 2</span>
+            </div>
+          </div>
+          <div class="art-card" id="art3">
+            <img id="art3-img">
+            <input type="file" accept="image/*" onchange="loadArtCard('art3','art3-img',this)">
+            <div class="art-empty">
+              <span class="art-mark">✦</span>
+              <span class="art-label">Upload visual / design</span>
+            </div>
+            <div class="art-overlay">
+              <span class="art-caption" contenteditable>Visual Sample 3</span>
+            </div>
+          </div>
+          <div class="art-card" id="art4">
+            <img id="art4-img">
+            <input type="file" accept="image/*" onchange="loadArtCard('art4','art4-img',this)">
+            <div class="art-empty">
+              <span class="art-mark">✦</span>
+              <span class="art-label">Upload visual / design</span>
+            </div>
+            <div class="art-overlay">
+              <span class="art-caption" contenteditable>Visual Sample 4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMPAIGNS -->
+  <section class="campaigns-section" id="campaigns">
+    <div class="s-inner">
+      <div class="s-eyebrow reveal">
+        <span class="s-eyebrow-num">04</span>
+        <span class="s-eyebrow-line"></span>
+        <span class="s-eyebrow-label">Campaign Concepts</span>
+      </div>
+      <h2 class="s-title reveal">Stories <em>by design.</em></h2>
+
+      <div class="campaign-pair">
+        <div class="campaign-card reveal" data-num="01">
+          <div class="campaign-tag">Social Impact</div>
+          <div class="campaign-title">MAYBE FLAWED YET BEAUTIFUL</div>
+          <div class="campaign-subtitle">A digital awareness campaign against body shaming</div>
+          <p class="campaign-body">A cross-platform campaign using empathy-driven storytelling, educational content, and community-focused messaging to challenge body shaming culture and build safer digital spaces.</p>
+
+          <div class="sample-post">
+            <div class="sample-post-label">Sample Post — Awareness</div>
+            <p class="sample-post-text">Not every comment is harmless. Body shaming can affect confidence, emotional wellbeing, and how people show up in the world. Before commenting on someone's appearance, ask yourself: Is it kind? Is it necessary? Is it respectful?</p>
+            <div class="sample-post-tags">#WordsShapeWorlds · #EndBodyShaming · #ChooseEmpathy</div>
+          </div>
+
+          <div class="campaign-link-group">
+            <div class="link-input-group">
+              <input class="url-input" id="c1-url" placeholder="Campaign deck link…" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.08);color:white;">
+              <button class="url-set-btn" onclick="setHref('c1-url','c1-btn')">Set</button>
+              <a href="#" id="c1-btn" class="proj-link-btn primary" style="display:none" target="_blank">View Deck →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="campaign-card reveal reveal-delay-2" data-num="02">
+          <div class="campaign-tag">Blender · Open Source</div>
+          <div class="campaign-title">BEHIND THE BUILD</div>
+          <div class="campaign-subtitle">A storytelling campaign for Blender Foundation</div>
+          <p class="campaign-body">A campaign concept to communicate the ongoing work at Blender Studio — turning the open-source process into human, engaging stories through blog posts, social content, and community spotlights.</p>
+
+          <div class="sample-post">
+            <div class="sample-post-label">Sample Post — Community</div>
+            <p class="sample-post-text">Every Blender project begins long before the final render. From early experiments to community feedback — the process is where open-source creativity truly comes alive. Behind the Build brings those stories forward.</p>
+            <div class="sample-post-tags">#Blender · #OpenSource · #BehindTheBuild · #CreativeProcess</div>
+          </div>
+
+          <div class="campaign-link-group">
+            <div class="link-input-group">
+              <input class="url-input" id="c2-url" placeholder="Campaign deck link…" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.08);color:white;">
+              <button class="url-set-btn" onclick="setHref('c2-url','c2-btn')">Set</button>
+              <a href="#" id="c2-btn" class="proj-link-btn primary" style="display:none" target="_blank">View Deck →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="approach-section">
+    <div class="s-inner">
+      <div class="s-eyebrow reveal">
+        <span class="s-eyebrow-num">05</span>
+        <span class="s-eyebrow-line"></span>
+        <span class="s-eyebrow-label">How I Work</span>
+      </div>
+      <h2 class="s-title reveal">Principles that <em>drive</em> everything.</h2>
+
+      <div class="approach-grid">
+        <div class="approach-card reveal">
+          <div class="approach-num">01</div>
+          <div class="approach-icon">🔍</div>
+          <div class="approach-name">Clarity</div>
+          <p class="approach-text">Ideas deserve to be understood. I strip away complexity and find the clearest path from information to insight — whether through a caption, a carousel, or a campaign.</p>
+        </div>
+        <div class="approach-card reveal reveal-delay-1">
+          <div class="approach-num">02</div>
+          <div class="approach-icon">🤝</div>
+          <div class="approach-name">Empathy</div>
+          <p class="approach-text">Before I write a word or choose a frame, I ask: who is this for, and how should it feel? Stories that move people are always built on genuine understanding of the audience.</p>
+        </div>
+        <div class="approach-card reveal reveal-delay-2">
+          <div class="approach-num">03</div>
+          <div class="approach-icon">✦</div>
+          <div class="approach-name">Curiosity</div>
+          <p class="approach-text">I am always learning. I dive into new tools, communities, and contexts — and I believe the most interesting stories are found in the details of how things actually get made.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <div class="tools-section">
+    <div class="tools-marquee-wrap">
+      <div class="tools-marquee">
+        <div class="tools-inner" id="tools1">
+          <span class="tool-chip">Canva</span>
+          <span class="tool-chip">CapCut</span>
+          <span class="tool-chip">Figma</span>
+          <span class="tool-chip">Adobe Express</span>
+          <span class="tool-chip">Blender</span>
+          <span class="tool-chip">DaVinci Resolve</span>
+          <span class="tool-chip">HTML</span>
+          <span class="tool-chip">CSS</span>
+          <span class="tool-chip">JavaScript</span>
+          <span class="tool-chip">Google Workspace</span>
+          <span class="tool-chip">Notion</span>
+          <span class="tool-chip">Instagram</span>
+          <span class="tool-chip">LinkedIn</span>
+          <span class="tool-chip">TikTok</span>
+          <span class="tool-chip">X / Twitter</span>
+        </div>
+        <div class="tools-inner" aria-hidden="true">
+          <span class="tool-chip">Canva</span>
+          <span class="tool-chip">CapCut</span>
+          <span class="tool-chip">Figma</span>
+          <span class="tool-chip">Adobe Express</span>
+          <span class="tool-chip">Blender</span>
+          <span class="tool-chip">DaVinci Resolve</span>
+          <span class="tool-chip">HTML</span>
+          <span class="tool-chip">CSS</span>
+          <span class="tool-chip">JavaScript</span>
+          <span class="tool-chip">Google Workspace</span>
+          <span class="tool-chip">Notion</span>
+          <span class="tool-chip">Instagram</span>
+          <span class="tool-chip">LinkedIn</span>
+          <span class="tool-chip">TikTok</span>
+          <span class="tool-chip">X / Twitter</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="contact-eyebrow">Let's Connect</div>
+    <h2 class="contact-headline">
+      LET'S<br>
+      <span class="ch-gold">TELL</span><br>
+      STORIES.
+    </h2>
+    <div class="contact-links">
+      <a href="mailto:Omolaramary735@gmail.com" class="contact-chip filled">Send an Email</a>
+      <a href="https://linkedin.com/in/aworeni-omolara-14b25a223" target="_blank" class="contact-chip">LinkedIn</a>
+      <a href="#" class="contact-chip" id="portfolio-final-link" contenteditable>Add Portfolio Link</a>
+    </div>
+    <div class="contact-details">
+      <span class="contact-detail">Omolaramary735@gmail.com</span>
+      <span class="contact-detail">08142811275</span>
+      <span class="contact-detail">Lagos, Nigeria (Remote)</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-mark">OMOLARA AWORENI MARY</span>
+    <span class="footer-right">Creative Storyteller · 2026 · Blender Application</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
